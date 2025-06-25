@@ -15,12 +15,12 @@ variable "vpc_name" {
 
 variable "cidr_public_subnet" {
   type        = list(string)
-  description = "Public Subnet CIDR values"
+  description = "Public Subnet CIDR  values"
 }
 
 variable "cidr_private_subnet" {
   type        = list(string)
-  description = "Private Subnet CIDR values"
+  description = "Private Subnet CIDR   values"
 }
 
 variable "eu_availability_zone" {
@@ -30,7 +30,7 @@ variable "eu_availability_zone" {
 
 variable "public_key" {
   type        = string
-  description = "DevOps Project 1 Public key for EC2 instance"
+  description = "DevOps Project 1 Public  key for EC2 instance"
 }
 
 variable "ec2_ami_id" {
